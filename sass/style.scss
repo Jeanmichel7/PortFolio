@@ -5,5 +5,42 @@
 }
 
 body{
-    margin-top:100px;
+    background-size: 1000px 400px;
+
+    position:relative;
 }
+
+#navbarSupportedContent{
+    justify-content: center;
+
+    li{
+        padding: 0 10px 0 10px;
+    }
+}
+
+.navbar{
+    background-color: rgba(109, 109, 109, 0.884);
+}
+
+/* Présentation */
+.bg-banniere{
+    background-image: url(../img/banniere-bg.png);
+    max-width:2000px;
+    height:500px;
+}
+
+.b-parallax{
+    background-attachment:fixed;
+}
+
+#presentation{
+    margin-top:180px;
+
+    h1, p{
+        color:white;
+    }
+    p{
+        font-size:1.8rem;
+    }
+}
+
