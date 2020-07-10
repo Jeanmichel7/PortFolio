@@ -12,6 +12,9 @@
     <!--Style CSS-->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento&family=Galada&display=swap" rel="stylesheet">
+
 
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -24,7 +27,7 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
 
-        
+
 </head>
 
 <body>
@@ -44,7 +47,7 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Compétences</a>
                         </li>
-                        
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -75,22 +78,25 @@
 
         <main>
             <!-- bloc-1-presentation -->
-			<section class="bg-banniere b-parallax">
-                <div class="row">
-                    <div class="col-sm-12"  id="presentation">
-                        <h1 class="text-center">
-                            Jean-Michel Rasser
-                        </h1>
+            <section>
+                <div class="row bg-banniere b-parallax">
+                    <div class="col-sm-12" id="presentation-text">
                         <p class="text-center">
-                            Développeur web - 3D Maker
+                            Jean-Michel Rasser
                         </p>
+                        <h1 class="text-center">
+                            Développeur web - 3D Maker
+                        </h1>
                     </div>
                 </div>
             </section>
+
+
+
+
+
             <!-- bloc-1-presentation END -->
 
-
-            
             <!--CAROUSSEL
             <section>
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -124,104 +130,142 @@
 
 
 
+
+
+            <!-- Compétences -->
             <section>
                 <h2 class="text-center">Compétence</h2>
                 <div class="underline"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum eaque corrupti officia natus, neque sit
+                    saepe? Veritatis assumenda recusandae quidem ullam natus, ducimus reprehenderit distinctio
+                    reiciendis, dolores cum omnis nemo.</p>
 
                 
+                <div class="row">
+                    <div class="col-sm-6">
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <ul>
+                            <li>Modélsiation</li>
+                            <li>Impression 3D</li>
+                                <ul>
+                                    <li>PLA - ABS - TPU</li>
+                                </ul>
+                        </ul>
+                    </div>
+                </div>
+                
+
+
+
+
+
 
 
             </section>
 
 
+
+
+            <!-- Portfolio-->
             <section id="portfolio">
                 <h2 class="text-center">PortFolio</h2>
                 <div class="underline"></div>
 
                 <div class="row">
-                    <article class="col-sm-3">
+                    <div class="col-md-6 col-lg-3 ">
                         <h3 class="text-center">Maraicher</h3>
-                        <a href="#"><img src="./img/permaculture-portfolio-jeanmichel-rasser.png"></a>
-                    </article>
-                    <article class="col-sm-3">
-                        <h3 class="text-center">Curriculum Vitae</h3>
-                        <a href="#"><img src="./img/cv-portfolio-jeanmichel-rasser.png"></a>
-                    </article>
-                    <article class="col-sm-3">
-                        <h3 class="text-center">Oh my food!</h3>
-                        <a href="#"><img src="./img/ohmyfood-portfolio-jeanmichel-rasser.png"></a>
-                    </article>
-                    <article class="col-sm-3">
-                        <h3 class="text-center">SEO - Webdesign</h3>
-                        <a href="#"><img src="./img/seo-portfolio-jeanmichel-rasser.png"></a>
-                    </article>
+                        <div class="sousligne text-center">
+                            <img src="./img/sousligne.png">
+                        </div>                     
 
+                        <div class="border-gradient">
+                            <a href="#"><img src="./img/permaculture-portfolio-jeanmichel-rasser.png"></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <h3 class="text-center">Curriculum Vitae</h3>
+                        <div class="sousligne text-center">
+                            <img src="./img/sousligne.png">
+                        </div>  
+
+                        <div class="border-gradient">
+                            <a href="#"><img src="./img/cv-portfolio-jeanmichel-rasser.png"></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <h3 class="text-center">Oh my food!</h3>
+                        <div class="sousligne text-center">
+                            <img src="./img/sousligne.png">
+                        </div>  
+
+                        <div class="border-gradient">
+                            <a href="#"><img src="./img/ohmyfood-portfolio-jeanmichel-rasser.png"></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <h3 class="text-center">SEO-Webdesign</h3>
+                        <div class="sousligne text-center">
+                            <img src="./img/sousligne.png">
+                        </div>  
+
+                        <div class="border-gradient">
+                            <a href="#"><img src="./img/seo-portfolio-jeanmichel-rasser.png"></a>
+                        </div>
+                    </div>
                 </div>
             </section>
 
+
+
+            <!-- A propos de moi-->
             <section>
                 <h2 class="text-center">A propos</h2>
                 <div class="underline"></div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quasi in dolorum obcaecati facilis magnam, nesciunt eaque. Aspernatur adipisci odit rerum repellat eaque, sequi, provident earum blanditiis a error dolor.</p>
             </section>
 
+
+
+            <!-- Contact-->
             <section>
                 <h2 class="text-center">Contact</h2>
                 <div class="underline"></div>
-                <p>A</p>
-                <p>A</p>
-                <p>A</p>
-                <p>A</p>
-                v
-                <var><p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                <var><p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                </var></var>
 
+                <div class="row">
+                    <div class="col-sm-6">
+                        <ul>
+                            <li>Jean-Michel Rasser</li>
+                            <li>Colmar, Alsace</li>
+                            <li class="divider"></li>
+                            <li>jeanmichel.rasser@laposte.net</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
 
-                <p>A</p>
-                <p>A</p>
-                <p>A</p>
-                <p>A</p>
-                <p>A</p>
-                <p>A</p>
-                <var><var><p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                    <p>A</p>
-                </var></var>
+                    </div>
+                </div>
             </section>
         </main>
 
 
+
+
+
+
+
         <footer>
-
-
-
+            <p>- Github Pages - </p>
         </footer>
     </div>
 </body>

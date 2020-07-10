@@ -1,21 +1,22 @@
 @charset "UTF-8";
+/*
+font-family: 'Fondamento', cursive;
+font-family: 'Galada', cursive;
+*/
 body {
   position: relative;
 }
 
-.container-fluid {
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-}
-
 h2 {
-  margin-top: 20px;
+  font-size: 1.9rem;
+  margin-top: 40px;
+  font-family: "Galada", cursive;
 }
 
 h3 {
   font-size: 1.5rem;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  font-family: "Fondamento", cursive;
 }
 
 .underline {
@@ -44,25 +45,53 @@ h3 {
   background-image: url(../img/banniere-bg.png);
   background-size: 100%;
   height: 580px;
+  object-fit: cover;
 }
 
 .b-parallax {
   background-attachment: fixed;
 }
 
-#presentation {
+#presentation-text {
   margin-top: 11vw;
 }
-#presentation h1, #presentation p {
+#presentation-text h1, #presentation-text p {
   color: white;
 }
-#presentation p {
+#presentation-text p {
   font-size: 2.3rem;
 }
 
 /* Portfolio */
+.sousligne img {
+  width: 130px !important;
+  padding: 0 0 20px 0 !important;
+}
+
 #portfolio img {
   width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.border-gradient {
+  border: 1px solid black;
+  border-image-slice: 1;
+  border-width: 3px;
+  border-image-source: linear-gradient(to left, #353535, #b8b8b8);
+  box-shadow: 10px 10px 10px;
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #adadad;
+}
+footer p {
+  font-size: 0.7rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 3px;
 }
 
 @media screen and (max-width: 1565px) {
@@ -72,24 +101,28 @@ h3 {
 }
 @media screen and (max-width: 1065px) {
   .bg-banniere {
-    background-size: cover;
     background-size: auto;
     height: 400px;
   }
 
-  #presentation {
-    margin-top: 110px;
+  #presentation-text {
+    margin-top: 150px;
   }
-  #presentation h1, #presentation p {
+  #presentation-text h1, #presentation-text p {
     font-size: 2rem;
   }
 }
 @media screen and (max-width: 565px) {
-  #presentation {
-    margin-top: 130px;
+  #presentation-text {
+    margin-top: 160px;
   }
-  #presentation h1, #presentation p {
+  #presentation-text h1, #presentation-text p {
     font-size: 1.5rem;
+  }
+
+  .bg-banniere {
+    background-size: auto;
+    height: 400px;
   }
 }
 
