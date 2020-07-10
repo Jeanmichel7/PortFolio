@@ -45,7 +45,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="nav navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Compétences</a>
+                            <a class="nav-link" href="#competence">Compétences</a>
                         </li>
 
                         <li class="nav-item dropdown">
@@ -54,19 +54,19 @@
                                 PortFolio
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">CV</a>
-                                <a class="dropdown-item" href="#">Maraiché</a>
-                                <a class="dropdown-item" href="#">P3</a>
-                                <a class="dropdown-item" href="#">P4</a>
+                                <a class="dropdown-item" href="https://jeanmichel7.github.io/Maraicher">Maraichage</a>
+                                <a class="dropdown-item" href="https://jeanmichel7.github.io/P2_JeanmichelRasser_CV">Curriculum Vitae</a>
+                                <a class="dropdown-item" href="https://jeanmichel7.github.io/P3_Jean-Michel_Rasser">Oh my food!</a>
+                                <a class="dropdown-item" href="https://jeanmichel7.github.io/P4_SEO">La Chouette Agence</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#">Autre chose</a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">A propos </a>
+                            <a class="nav-link" href="#apropos">A propos </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -133,42 +133,69 @@
 
 
             <!-- Compétences -->
-            <section>
+            <section  id="competence">
                 <h2 class="text-center">Compétence</h2>
-                <div class="underline"></div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum eaque corrupti officia natus, neque sit
-                    saepe? Veritatis assumenda recusandae quidem ullam natus, ducimus reprehenderit distinctio
-                    reiciendis, dolores cum omnis nemo.</p>
+                <div class="sousligne text-center">
+                    <img src="./img/sousligne.png">
+                </div>
+                <p>Passionné de nouvelles technologies, je me suis initié au développement web, à la modélisation puis
+                    impression 3D, à la programmation d'un Arduino et à la programmation d'algorithme de trading.
+                </p>
 
-                
-                <div class="row">
-                    <div class="col-sm-6">
-                        <ul>
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>Bootstrap</li>
-                        </ul>
-                    </div>
+                <div class="competence">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <h3 class="text-center">Développement Web</h3>
+                            <div class="underline"></div>
 
-                    <div class="col-sm-6">
-                        <ul>
-                            <li>Modélsiation</li>
-                            <li>Impression 3D</li>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <ul class="bg-competence">
+                                        <h4 class="text-center">Language</h4>
+                                        <li>HTML 5</li>
+                                        <li>CSS 3</li>
+                                        <li>JavaScript</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <ul class="bg-competence">
+                                        <h4 class="text-center">Framework</h4>
+                                        <li>Bootstrap 4.5</li>
+                                        <li>SASS</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <ul class="bg-competence">
+                                        <h4 class="text-center">Outils</h4>
+                                        <li>Visual Studio Code</li>
+                                        <li>GitHub</li>
+                                        <li>PhotoShop</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <h3 class="text-center">Impression 3D</h3>
+                            <div class="underline"></div>
+                            <ul class="bg-competence">
+                                <h4>Modélisation 3D</h4>
+                                <ul>
+                                    <li>Sketchup - Cura</li>
+                                </ul>
+                                <h4>Impression 3D</h4>
                                 <ul>
                                     <li>PLA - ABS - TPU</li>
                                 </ul>
-                        </ul>
+                            </ul>
+                        </div>  
                     </div>
                 </div>
-                
-
-
-
-
-
-
-
             </section>
+
+
 
 
 
@@ -176,47 +203,41 @@
             <!-- Portfolio-->
             <section id="portfolio">
                 <h2 class="text-center">PortFolio</h2>
-                <div class="underline"></div>
+                <div class="sousligne text-center">
+                    <img src="./img/sousligne.png">
+                </div>
 
-                <div class="row">
-                    <div class="col-md-6 col-lg-3 ">
+                <div class="row portfolio">
+                    <div class="col-sm-6 col-lg-3 ">
                         <h3 class="text-center">Maraicher</h3>
-                        <div class="sousligne text-center">
-                            <img src="./img/sousligne.png">
-                        </div>                     
+                        <div class="underline"></div>
+
 
                         <div class="border-gradient">
                             <a href="#"><img src="./img/permaculture-portfolio-jeanmichel-rasser.png"></a>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-sm-6 col-lg-3">
                         <h3 class="text-center">Curriculum Vitae</h3>
-                        <div class="sousligne text-center">
-                            <img src="./img/sousligne.png">
-                        </div>  
-
+                        <div class="underline"></div>
                         <div class="border-gradient">
                             <a href="#"><img src="./img/cv-portfolio-jeanmichel-rasser.png"></a>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-sm-6 col-lg-3">
                         <h3 class="text-center">Oh my food!</h3>
-                        <div class="sousligne text-center">
-                            <img src="./img/sousligne.png">
-                        </div>  
+                        <div class="underline"></div>
 
                         <div class="border-gradient">
                             <a href="#"><img src="./img/ohmyfood-portfolio-jeanmichel-rasser.png"></a>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-sm-6 col-lg-3">
                         <h3 class="text-center">SEO-Webdesign</h3>
-                        <div class="sousligne text-center">
-                            <img src="./img/sousligne.png">
-                        </div>  
+                        <div class="underline"></div>
 
                         <div class="border-gradient">
                             <a href="#"><img src="./img/seo-portfolio-jeanmichel-rasser.png"></a>
@@ -227,20 +248,36 @@
 
 
 
-            <!-- A propos de moi-->
-            <section>
-                <h2 class="text-center">A propos</h2>
-                <div class="underline"></div>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quasi in dolorum obcaecati facilis magnam, nesciunt eaque. Aspernatur adipisci odit rerum repellat eaque, sequi, provident earum blanditiis a error dolor.</p>
+
+
+            <!-- A propos de moi-->
+            <section id="apropos">
+                <h2 class="text-center">A propos</h2>
+                <div class="sousligne text-center">
+                    <img src="./img/sousligne.png">
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quasi in dolorum obcaecati facilis
+                    magnam, nesciunt eaque. Aspernatur adipisci odit rerum repellat eaque, sequi, provident earum
+                    blanditiis a error dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolorum
+                    non assumenda illum delectus reiciendis illo. Iure autem tempora asperiores dolores molestiae
+                    veritatis, aliquam assumenda eos voluptates, quos, deserunt recusandae. Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Repellat quae totam porro id nostrum, omnis ratione nobis odit eius
+                    facilis? Eos nemo quasi, laborum voluptatibus magnam deserunt autem dolorum consectetur.</p>
             </section>
 
 
 
+
+
+
             <!-- Contact-->
-            <section>
+            <section id="contact">
                 <h2 class="text-center">Contact</h2>
-                <div class="underline"></div>
+                <div class="sousligne text-center">
+                    <img src="./img/sousligne.png">
+                </div>
 
                 <div class="row">
                     <div class="col-sm-6">
@@ -249,15 +286,17 @@
                             <li>Colmar, Alsace</li>
                             <li class="divider"></li>
                             <li>jeanmichel.rasser@laposte.net</li>
+                            <li>06 79 20 28 23</li>
                         </ul>
                     </div>
                     <div class="col-sm-6">
 
                     </div>
+                    
+                    
                 </div>
             </section>
         </main>
-
 
 
 
