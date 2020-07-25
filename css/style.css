@@ -14,8 +14,8 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
-  margin-top: 20px;
+  font-size: 1.6rem;
+  margin-top: 30px;
   font-family: "Fondamento", cursive;
 }
 
@@ -72,6 +72,9 @@ h4 {
 .competence {
   background-color: #e7e7e7;
   border-radius: 15px;
+  border: black solid 1px;
+  box-shadow: 4px 4px 4px #6e6e75;
+  margin-top: 20px;
 }
 .competence li {
   list-style: none;
@@ -79,10 +82,12 @@ h4 {
 .competence .bg-competence {
   background-color: #cecece;
   border-radius: 10px;
+  border: #9b9b9b solid 1px;
+  box-shadow: 2px 2px 2px #6e6e75;
   justify-content: center;
   margin-left: 10px;
   margin-right: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   padding: 10px;
   min-height: 160px;
 }

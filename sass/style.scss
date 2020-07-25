@@ -19,8 +19,8 @@ h2{
     font-family: 'Galada', cursive;
 }
 h3{
-    font-size:1.5rem;
-    margin-top:20px;
+    font-size:1.6rem;
+    margin-top:30px;
 
     font-family: 'Fondamento', cursive;
 }
@@ -107,6 +107,13 @@ h4{
 .competence{
     background-color:#e7e7e7;
     border-radius:15px;
+    border: black solid 1px;
+
+    box-shadow: 4px 4px 4px rgb(110, 110, 117);
+
+    margin-top:20px;
+
+
 
     li{
         list-style: none;
@@ -115,11 +122,16 @@ h4{
     .bg-competence{
         background-color: #cecece;
         border-radius: 10px;
+        border:rgb(155, 155, 155) solid 1px;
+        box-shadow: 2px 2px 2px rgb(110, 110, 117);
+
+
+
         justify-content: center;
 
         margin-left:10px;
         margin-right:10px;
-        margin-bottom:10px;
+        margin-bottom:30px;
 
         padding:10px;
 
